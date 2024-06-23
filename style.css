@@ -125,7 +125,8 @@ nav div {
   background-color: black;
   border: solid;
   border-color: #f5e41b;
-  padding: 6px 13px 5px;
+
+  padding: 6px 12.5px 5px;
   overflow: hidden;
   transition: 0.25s;
   /* z-index: 999; */
@@ -417,7 +418,7 @@ a:hover {
     }
     #ShowWhenSmall {
       display: flex;
-      margin-bottom:10vh ;
+      margin-bottom:7vh ;
     }
     #mobile-menu {
       display: flex;
