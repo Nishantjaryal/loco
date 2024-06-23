@@ -35,6 +35,10 @@ body {
   animation: Slide2 1s ease 2s forwards;
   /* display: none; */
 }
+.block{
+  width: 100%;
+  display: block;
+}
 #loader video {
   position: absolute;
   height: 100%;
@@ -45,7 +49,6 @@ body {
 }
 
 nav {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
