@@ -4,7 +4,8 @@ function scroll() {
     smooth: true,
     lerp: 0.04
   })
-} scroll()
+}
+//  scroll()
 
 function menu() {
   const menus = document.querySelectorAll(".menu");
