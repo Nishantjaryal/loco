@@ -337,7 +337,7 @@ a:hover {
 #page4 {
   display: flex;
   justify-content: space-between;
-  min-height: 30vh;
+  min-height: 32vh;
   width: 100%;
   background: #000;
   color: white;
@@ -418,10 +418,23 @@ a:hover {
     #page4{
       padding-top:20px ;
       flex-direction: column;
-      height: 35vh;
+      height: 30vh;
       justify-content: flex-start;
       align-items: flex-start;
       gap: 20px
+    }
+    #page4 div a{
+      border: 1.2px solid #fff;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: 0.25s;
+
+    }
+    #page4 div a:hover{
+      text-decoration: none;
+      background-color: #fff;
+      border-color: #000;
+      color:#000
     }
   }
 }
@@ -440,7 +453,7 @@ a:hover {
     top: 0;
   }
   100% {
-    top: -100%;
+    top: -100vh;
   }
 }
 
