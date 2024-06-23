@@ -233,6 +233,7 @@ a:hover {
   background-size: cover;
   transition: 0.5s;
   background-image: url("./public/studio.png");
+  overflow: hidden;
 }
 
 .elem {
