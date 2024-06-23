@@ -5,7 +5,7 @@ function scroll() {
     lerp: 0.04
   })
 }
-//  scroll()
+ scroll()
 
 function menu() {
   const menus = document.querySelectorAll(".menu");
@@ -57,7 +57,7 @@ function menu() {
         drop_menu_buttons.forEach((element)=>{
           element.style.transform = "rotate(0deg)"
         });
-        drop_menu.style.top = "-100%"
+        drop_menu.style.top = "-100vh"
         Mobile_controller = true
 
       }
