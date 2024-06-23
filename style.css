@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*::selection{
+  background: transparent;
+}
+
 html,
 body {
   height: 100%;
@@ -46,6 +50,7 @@ nav {
   justify-content: space-between;
   padding: 20px;
   background: #f5e41b;
+  width: 100%;
 }
 
 #mobile-menu {
@@ -388,7 +393,12 @@ a:hover {
       line-height: 64px;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 500px) {
+    #page1{
+      justify-content: flex-start;
+      min-height: 90vh;
+
+    }
     #page1 h1 {
       font-size: 12vw;
       line-height: 12vw;
@@ -435,6 +445,10 @@ a:hover {
       background-color: #fff;
       border-color: #000;
       color:#000
+    }
+    nav{
+      padding-top: 10px;
+      padding-bottom: 30px;
     }
   }
 }
