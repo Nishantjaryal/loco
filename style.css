@@ -460,7 +460,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 500px) {
   #page1 h1 {
     font-size: 50px;
     line-height: 45px;
