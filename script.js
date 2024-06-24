@@ -76,7 +76,7 @@ function presentation() {
     })
     node.addEventListener("mouseout",()=>{
       marqueLists[index].style.display = "none"
-      canvas.style.backgroundImage = `url('./public/studio.png')`
+      canvas.style.backgroundImage = `url('./public/BOLDLY.jpg')`
     })
   });
 
